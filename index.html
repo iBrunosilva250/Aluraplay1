@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/flexbox.css">
+  <title>Aluraplay</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+     <!-- Cabecalho -->
+     <header>
+
+         <nav class="cabecalho__container">
+
+          <h1 class="logo__item" href="#"></h1>
+
+          <div class="cabecalho__pesquisar__item">
+            <form action="">
+              <input type="search" placeholder="pesquisar" id="pesquisar" class="pesquisar__input">
+              <label for="pesquisar" class="pesquisar__label"></label>
+            </form>
+            <a href="#" class="cabecalho__audio"></a>
+          </div>
+
+          <div class="cabecalhos__icones__item">
+            <a href="#" class="cabecalho__video"></a>
+            <a href="#" class="cabecalho__apps"></a>
+            <a href="#" class="cabecalho__notificacoes"></a>
+            <a href="#" class="cabecalho__avatar"></a>
+          </div>
+
+         </nav>
+
+     </header>
+
+     <!-- Menu lateral -->
+
+     <aside class="menu__container">
+      <ul class="menu__lista">
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__inicio icone-item"></i> 
+          <span>início</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__explorar icone-item"></i> 
+          <span>Explorar</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__shorts icone-item"></i> 
+          <span>shorts</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__inscrições icone-item"></i> 
+          <span>inscrições</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__Biblioteca icone-item"></i> 
+          <span>Biblioteca</span></a>
+        </li>
+      </ul>
+
+      <ul class="menu__lista">
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__Histórico icone-item"></i> 
+          <span>Histórico</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__relogio icone-item"></i> 
+          <span>Assistir mais tarde</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__like icone-item"></i> 
+          <span>Marcados com like</span></a>
+        </li>
+
+      </ul>
+
+      <ul class="menu__lista">
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__mostrar icone-item"></i> 
+          <span>mostrar mais 2</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__deschamps icone-item"></i> 
+          <span>Felipe deschamps</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__nerd icone-item"></i> 
+          <span>Jovem Nerd</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__souto icone-item"></i> 
+          <span>Mario Souto</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__iamarino icone-item"></i> 
+          <span>Atila Iamarino</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__ballerini icone-item"></i> 
+          <span>Rafaella Ballerini</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__gaveta icone-item"></i> 
+          <span>Gaveta</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens" href="#">
+            <i class="icone__alura icone-item"></i> 
+          <span>Alura</span></a>
+        </li>
+
+        <li>
+          <a class="menu__itens inscricoes" href="#">INSCRIÇÔES</a>
+        </li>
+
+      </ul>
+
+      <ul class="menu__lista">
+        <li class="jogos">
+          <a class="menu__itens" href="#">
+            <i class="icone__jogos icone-item"></i>
+            <span>Jogos</span></a>
+        </li>
+
+        <li class="filmes">
+          <a class="menu__itens" href="#">
+            <i class="icone__filmes icone-item"></i>
+            <span>Filmes</span></a>
+        </li>
+
+        <li class="premium">
+          <a class="menu__itens" href="#">
+            <i class="icone__videos icone-item"></i>
+            <span>Videos Premium</span></a>
+        </li>
+
+        <li class="menu__itens maispagina">
+          <a href="#">MAIS DA PáGINAS</a>
+        </li>
+
+      </ul>
+     </aside>
+
+    <!-- Seção superior -->
+
+  <section class="superior__secao__container">
+    <a class="superior__item" href="#">Tudo</a>
+    <a class="superior__item" href="#">Debates</a>
+    <a class="superior__item" href="#">Ao Vivo</a>
+    <a class="superior__item" href="#">Podcasts</a>
+    <a class="superior__item" href="#">Fundo de Investimento</a>
+    <a class="superior__item" href="#">Desenhos</a>
+    <a class="superior__item" href="#">Data Science</a>
+    <a class="superior__item" href="#">apps</a>
+    <a class="superior__item" href="#">Linguagem de Programação</a>
+    <a class="superior__item" href="#">Ciência da computação</a>
+    <a class="superior__item" href="#">Marketing</a>
+  </section>
+
+  <!-- Vídeos -->
+
+  <ul class="videos__container">
+      <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/GJnuZ1488gU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="descricao-video">
+          <img src="imagem/video/Ellipse 11.png" alt="logo do canal Alura cursos Online">
+          <h3>A melhor stack JavaScript ? com Mario Souto</h3>
+          <p>7 mil visualizações - há 2 anos</p>
+        </div>
+      </li>
+
+      <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/IYk_XYm8Ve0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/unnamed.jpg" alt="Logo do canal Takeru">
+            <h3>Rap do Dabi - Chamas Azuis</h3>
+            <p>4,2mi visualizações - Há 2 anos</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/YhnNOTde2I0"
+            title="Mercado de Trabalho | Desmistificando Mobile - Episódio 5" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+            <h3>Mercado de Trabalho | Desmistificando Mobile...</h3>
+            <p>1,1 mil visualizações - Há 1 mês</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/y8FeZMv37WU"
+            title="Conhecendo a linguagem Go | Hipsters.Talks" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+            <h3>Conhecendo a linguagem Go | Hipsters.Talks</h3>
+            <p>3 mil visualizações - Há 3 meses</p>
+        </div>
+    </li>
+    <li class="videos__item">
+      <iframe width="100%" height="72%" src="https://www.youtube.com/embed/hM8eD_NWKz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Zona de Progresso.jpg" alt="Logo do canal Zona de Progresso">
+            <h3>Neurocientista: "Essa Simples Estratégia Te Fará Aprender Mais Rápido E Melhor"</h3>
+            <p>208 mil visualizações - Há 3 meses</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/jpuJ1qrluoU"
+            title="Orientação a objetos com Roberta Arcoverde | #HipstersPontoTube" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+            <h3>Orientação a objetos com Roberta Arcoverde | #Hipster...</h3>
+            <p>30 mil visualizações - Há 3 meses</p>
+        </div>
+    </li>
+    <li class="videos__item">
+      <iframe width="100%" height="72%" src="https://www.youtube.com/embed/RQzQidKWmxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/unnamed.jpg" alt="Logo do canal Takeru">
+            <h3>Rap do Zenitsu - TIPO UM RAIO</h3>
+            <p>1,2 mi visualizações - há 2 anos</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/h83e1aAM5xQ" title="
+            4:06
+            TOCANDO AGORA
+            Linguagens e ferramentas usadas em Ciência de Dados | Universo Data Science - Episódio 3"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+            <h3>Linguagens e ferramentas usadas em Ciência de Dados...</h3>
+            <p>2,5 mil visualizações - Há 9 dias</p>
+        </div>
+    </li>
+    <li class="videos__item">
+      <iframe width="100%" height="72%" src="https://www.youtube.com/embed/ND30RFr4t6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Zona de Progresso.jpg" alt="Logo do canal Zona de Progresso">
+            <h3>Como Se Tornar O Melhor Naquilo Que Você Faz</h3>
+            <p>22 mil visualizações - Há 2 meses</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/vf9P_PycgRw"
+            title="Híbridos: Flutter e React Native | Desmistificando Mobile - Episódio 4" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+            <h3>Híbridos: Flutter e React Native | Desmistificando...</h3>
+            <p>1,6 mil visualizações - Há 1 mês</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/Nts3P35mHzE"
+            title="Data Science na prática- com Jéssika Ribeiro do Grupo Boticário | Universo Data Science - Episódio 4"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+            <h3>Data Science na prática- com Jéssika Ribeiro do Grupo...</h3>
+            <p>3,2 mil visualizações - Há 7 dias</p>
+        </div>
+    </li>
+    <li class="videos__item">
+      <iframe width="100%" height="72%" src="https://www.youtube.com/embed/A2HvRcZlHvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/tribo da periferia.jpg" alt="Logo do canal Tribo da Periferia">
+            <h3>Tribo da Periferia - Nosso Plano</h3>
+            <p>238 mi visualizações - Há 4 anos</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/SyEdlBSw11k"
+            title="Aniversário da Casa do Código | 10 anos da sua editora de Tecnologia" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+            <h3>Aniversário da Casa do Código | 10 anos da sua editora de...</h3>
+            <p>1,3 mil visualizações - Há 1 mês</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/FKYBCl_I9zU"
+            title="Jetpack Compose: Estados e animações | #AluraMais" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+            <h3>Jetpack Compose: Estados e animações</h3>
+            <p>1,6 mil visualizações - Há 8 dias</p>
+        </div>
+    </li>
+    <li class="videos__item">
+        <iframe width="100%" height="72%" src="https://www.youtube.com/embed/68EGCA67g_A"
+            title="[Casa do Código] Lançamento do Livro Certificação Linux" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura Cursos Online">
+            <h3>[Casa do Código] Lançamento do Livro Certificação Linux</h3>
+            <p>1,2 mil visualizações - Há 1 mês</p>
+        </div>
+    </li>
+    <li class="videos__item">
+      <iframe width="100%" height="72%" src="https://www.youtube.com/embed/r_cbh4-SOmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/hungria.jpg" alt="Logo do canal Hungria">
+            <h3>Hungria Hip Hop - Um Pedido</h3>
+            <p>194 mi visualizações - Há 4 anos</p>
+        </div>
+    </li>
+    <li class="videos__item">
+      <iframe width="100%" height="72%" src="https://www.youtube.com/embed/HBVCsBtsmzA"
+            title="baNaNa | Memes do JavaScript - Episódio 2" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura cursos Online">
+            <h3>baNaNa | Memes do JavaScript #2</h3>
+            <p>1,2 mil visualizações - Há 5 dias</p>
+        </div>
+    </li>
+    <li class="videos__item">
+      <iframe width="100%" height="72%" src="https://www.youtube.com/embed/CnB3eLTrkn4"
+            title="Reencontrando a paixão por programar: Beatriz Ramerindo" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura cursos Online">
+            <h3>Reencontrando a paixão por programar: Beatriz Ramerindo</h3>
+            <p>1,2 mil visualizações - Há 1 mês</p>
+        </div>
+    </li>
+    <li class="videos__item">
+      <iframe width="100%" height="72%" src="https://www.youtube.com/embed/fmu1LQvZhms"
+            title="Desmistificando mobile- Linguagens e Frameworks - Episódio 2" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura cursos Online">
+            <h3>Desmistificando mobile- Linguagens e Frameworks</h3>
+            <p>1,5 mil visualizações - Há 2 meses</p>
+        </div>
+    </li>
+    <li class="videos__item">
+      <iframe width="100%" height="72%" src="https://www.youtube.com/embed/NoB2WPPCGGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="descricao-video">
+            <img src="imagem/video/Ellipse 11.png" alt="Logo do canal Alura cursos Online">
+            <h3>Milionário e José Rico - Estrada Da Vida</h3>
+            <p>4,5 mi visualizações - Há 13 anos</p>
+        </div>
+    </li>
+  </ul>
+
+
+
+
+
+
+  <!-- <Seção rodapé> -->
+
+  <footer class="rodapé__container">
+    <section>
+      <h2 class="rodapé__titulo">Programação</h2>
+      <p class="rodapé__texto">Lógica</p>
+      <p>Python</p>
+      <p>Computação</p>
+      <p>Jogos</p>
+      <p>Computação</p>
+      <p>Node JS</p>
+     </section>
+
+     <section>
+      <h2 class="rodapé__titulo">Data Science</h2>
+      <p class="rodapé__texto">Ciência de dados</p>
+      <p>BI</p>
+      <p>SQL</p>
+      <p>Banco de Dados</p>
+      <p>Machine Learning</p>
+      <p>NoSQL</p>
+     </section>
+
+     <section>
+      <h2 class="rodapé__titulo">UX e Design</h2>
+      <p class="rodapé__texto">Photoshop</p>
+      <p>Illustrator</p>
+      <p>Usabilidade</p>
+      <p>Vídeo e Motion</p>
+      <p>Figman</p>
+      <p>Interface</p>
+     </section>
+
+     <section>
+      <h2 class="rodapé__titulo">Inovação e Gestão</h2>
+      <p class="rodapé__texto">métodos ágeis</p>
+      <p>Softskills</p>
+      <p>Liderança</p>
+      <p>Gestão</p>
+      <p>Startup</p>
+      <p>Vendas</p>
+     </section>
+
+     <section>
+      <h2 class="rodapé__titulo">Front-end</h2>
+      <p class="rodapé__texto">HTML</p>
+      <p>CSS</p>
+      <p>React</p>
+      <p>Angular</p>
+      <p>JavaScript</p>
+      <p>JQuery</p>
+     </section>
+
+     <section>
+      <h2 class="rodapé__titulo">Devops</h2>
+      <p class="rodapé__texto">AWS</p>
+      <p>Azure</p>
+      <p>Docker</p>
+      <p>Segurança</p>
+      <p>IaC</p>
+      <p>Linux</p>
+     </section>
+
+     <section>
+      <h2 class="rodapé__titulo">Mobile</h2>
+      <p class="rodapé__texto">React Native</p>
+      <p>Flutter</p>
+      <p>IOS</p>
+      <p>Swift</p>
+      <p>Android</p>
+      <p>Kotlin</p>
+    </section>
+
+    <section>
+      <h2 class="rodapé__titulo">Aleatórias</h2>
+      <p>Rap Animes</p>
+      <p>Hip Hop</p>
+      <p>Motivação</p>
+    </section>
+
+  </footer>
+
+
+
+
+
+</body>
+
+</html>
